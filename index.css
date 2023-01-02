@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*  to make item horizzontally */
+    height: 100vh;
+    align-items: center; /*  to make item vertically */
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+font-size: 2rem; /* 1 rem =16px*/
+color: white;
+}
+.section{
+    text-align: center;
+}
+.btn{
+    font-size: 5rem;
+    border: none;
+    background: rgb(255, 255, 255,.2);
+    border-radius: 10px;
+    padding: 15px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: grayscale(0);
+}
+.emoji-name{
+    color: white;
+    font-weight: 600;
+    
+}
